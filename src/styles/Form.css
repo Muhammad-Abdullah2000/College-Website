@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+#ApplyForm {
+    margin-top: 70px;
+    height: 235vh;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.formcontainer {
+
+    height: 190vh;
+}
+
+.info {
+
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info label {
+    font-size: 15px;
+}
+
+select {
+    border: none;
+    padding: 10px 90px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+select:focus {
+    outline: none;
+}
+
+
+.personalInfo1 {
+
+
+    height: 40vh;
+}
+
+.personalInfo label {
+    font-size: 15px;
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+
+    height: 20vh;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.inp label {
+    font-size: 15px;
+}
+
+.inp input {
+    width: 15%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid gray;
+}
+
+#gap1 {
+    width: 95%;
+    margin: 20px auto;
+}
+
+#PI {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.AcademicInfo {
+
+    height: 40vh;
+}
+
+.AcademicInfo label {
+    font-size: 15px;
+}
+
+.inp1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 20vh;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.inp1 input {
+    width: 15%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid gray;
+
+}
+
+
+#PI1 {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+
+.inp2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 10vh;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.inp2 input {
+    width: 15%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid gray;
+}
+
+
+.submitFormbuttons {
+
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+.submitFormbuttons input {
+    width: 10%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.submitFormbuttons input:nth-child(1) {
+    background-color: #d43f3a;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.submitFormbuttons input:nth-child(2) {
+    background-color: #687281;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.onlineAdmissions {
+
+
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d43f3a;
+}
+
+
+
+
+
+.Lname {
+
+
+    width: 23.5%;
+    /* padding: 20px 0 0 32%;  */
+
+
+
+
+}
+
+.Lname input {
+    width: 20vw;
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    text-indent: 10px;
+
+}
+
+.personalContainer {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    #ApplyForm {
+        height: 400vh;
+    }
+
+    .formcontainer {
+     
+        height: 370vh;
+    }
+
+    .formcontainer .info {
+     
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .personalInfo1 {
+      
+        height: 85vh;
+     
+    }
+
+    .personalInfo1 .personalContainer {
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .personalInfo1 .personalContainer .Lname {
+      
+        width: 100%;
+    }
+
+    .personalInfo1 .personalContainer .Lname input {
+        width: 100%;
+    }
+
+    .submitFormbuttons {
+       
+        margin-top: -300px;
+    }
+
+    .submitFormbuttons input{
+            width: 20%;
+    }
+
+   
+
+   
+
+
+}
+
+
+@media only screen and (max-width: 768px) {}

@@ -1,0 +1,208 @@
+#CareersForm {
+    height: 270vh;
+    margin-top: 70px;
+    background-color: #2d2b6f;
+}
+
+.recrutment {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+
+#personalInfoForm { 
+    width: 100%;
+    height: 250vh;
+}
+
+#personalInfoForm .personalinformation { 
+    height: 230vh;
+}
+
+
+.Lname1 {
+    width: 43.5%;
+}
+
+
+.Lname2 {
+    width: 83.7%;
+   
+    
+}
+
+.Lname3 {
+    width: 22.8%;
+  
+}
+
+.Lname4 {
+    width: 50.8%;
+
+}
+
+.Lname4 input {
+    width: 35vw;
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    text-indent: 10px;
+
+}
+
+
+.Lname3 input {
+    width: 15vw;
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    text-indent: 10px;
+
+}
+
+.Lname1 input {
+    width: 30vw;
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    text-indent: 10px;
+
+}
+
+.Lname2 input {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    text-indent: 10px;
+
+}
+
+
+.Lname1 input {
+    width: 30vw;
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    text-indent: 10px;
+
+}
+
+
+.personalContainer1 {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+
+.personalContainer2 {
+    position: relative;
+    top: 20px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    #CareersForm{
+        height: 460vh;
+      
+    }
+
+.recrutment{
+   
+}
+
+.recrutment h1{
+    font-size: 8vw;
+    text-align: center;
+}
+
+
+
+.personalinformation .personalContainer1{
+ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.personalinformation .personalContainer1 .Lname1{
+  
+    width: 90%;
+}
+
+.personalinformation .personalContainer1 .Lname1 input{
+    width: 100%;
+}
+
+#qualification{
+   
+    font-size: 10vw;
+    text-align: center;
+}
+
+
+.personalinformation .personalContainer2{
+  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.personalinformation .personalContainer2 .Lname3{
+
+    width: 90%;
+}
+
+.personalinformation .personalContainer2 .Lname3 input{
+    width: 100%;
+}
+
+.Lname4{
+   
+    width: 90%;
+}
+
+.Lname4 input{
+    width: 100%;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+   
+
+
+}

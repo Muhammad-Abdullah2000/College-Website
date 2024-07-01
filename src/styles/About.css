@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+#AboutSection {
+    /* margin-top: 100px; */
+    height: 180vh;
+    background-color: #2d2b6f;
+    margin-top: 70px;
+}
+
+.history {
+    color: white;
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.history h1 span {
+    color: #DF402D;
+
+}
+
+.des {
+    display: flex;
+    gap: 30px;
+}
+
+.history h1 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.description1 {
+
+    width: 30%;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description2 {
+
+
+    width: 30%;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description2 #about {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #DF402D;
+}
+
+.description1 #about {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #DF402D;
+}
+
+.des1 {
+
+    width: 75%;
+    float: right;
+    height: 25vh;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.des1 #des1 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.des2 {
+
+    width: 75%;
+    float: right;
+    height: 10vh;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.des2 #des2 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+
+.des3 {
+
+    width: 75%;
+    float: right;
+    height: 20vh;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.des3 #des3 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.des4 {
+
+    width: 75%;
+    float: right;
+    height: 20vh;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.des4 #des4 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+
+
+.descript2 {
+
+    width: 70%;
+    float: left;
+    height: 35vh;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descript2 #des21 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.descript3 {
+
+    width: 70%;
+    float: left;
+    height: 30vh;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.descript3 #des31 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descript4 {
+
+    width: 70%;
+    float: left;
+    height: 18vh;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descript4 #des41 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+
+.studentBody {
+
+    width: 60%;
+    height: 20vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.studentBody h1 {
+    font-size: 100px;
+    padding-left: 140px;
+    color: #DF402D;
+}
+
+
+.studentBody div {
+    width: 50%;
+    padding-left: 140px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.studentBody div h3 {
+    padding-left: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #DF402D;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    #AboutSection {
+        height: 280vh;
+    }
+
+
+    .history {
+     
+        width: 100%;
+
+
+    }
+
+    .des {
+        display: inline-block;
+    }
+
+    .des .description1 {
+      
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .des .description1 .des1 {
+       
+        width: 95%;
+        height: 30vh;
+        text-align: justify;
+        margin: 20px auto;
+    }
+
+    .des .description1 .des2 {
+     
+        width: 95%;
+        height: 30vh;
+        text-align: justify;
+        margin: 10px auto;
+    }
+
+    .des .description1 .des3 {
+      
+        width: 95%;
+        height: 30vh;
+        text-align: justify;
+        margin: 10px auto;
+    }
+
+    .des .description1 .des4 {
+       
+        width: 95%;
+        height: 30vh;
+        text-align: justify;
+        margin: 10px auto;
+    }
+
+
+
+
+
+    .description2 {
+        margin-top: 10px;
+       
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .description2 .descript2 {
+       
+        width: 95%;
+        height: 35vh;
+        text-align: justify;
+        margin: 20px auto;
+    }
+
+    .description2 .descript3 {
+      
+        width: 95%;
+        height: 35vh;
+        text-align: justify;
+        margin: 10px auto;
+    }
+
+
+    .description2 .descript4 {
+      
+        width: 95%;
+        height: 35vh;
+        text-align: justify;
+        margin: 10px auto;
+    }
+
+    .studentBody {
+      
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .studentBody h1 {
+        font-size: 12vw;
+        text-align: center;
+        position: relative;
+        left: 26%;
+        right: 50%;
+        transform: translateX(-50%);
+    }
+
+    .studentBody div {
+       
+        width: 100%;
+       
+    }
+
+    .studentBody div h3{
+        position: relative;
+        left: 38%;
+        right: 50%;
+        transform: translateX(-50%);
+    }
+
+
+}
+
+
+@media only screen and (max-width: 768px) {}

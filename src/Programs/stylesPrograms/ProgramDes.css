@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+#ProgramDes{
+   
+    height: 200vh;
+    margin-top: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.detailPrograms{
+  
+    font-size: 30px;
+    color: orangered;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intermediate{
+  
+    height: 80vh;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.intermediate .programbutton{
+  
+    width: 100%;
+    
+}
+
+.intermediate button{
+    width: 50%;
+    margin: 10px auto;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+   
+
+    .intermediate{
+       
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .programbutton{
+     
+        width: 100%;
+       display: inline-block;
+    }
+
+    .intermediate button{
+        width: 80%;
+        margin: 10px auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+   
+
+
+}

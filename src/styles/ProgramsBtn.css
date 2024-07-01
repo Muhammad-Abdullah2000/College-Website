@@ -1,0 +1,68 @@
+#ProgramsBtn {
+ 
+    height: 250vh;
+    margin-top: 70px;
+}
+
+.boardfinal {
+    height: 80vh;
+    
+}
+
+.boardfinal img {
+    height: 80vh;
+    width: 100%;
+}
+
+.admissionContainer1{
+
+    height: 30vh;
+    margin-top: 20px;
+}
+
+.admissionContainer1 .headoneText{
+    
+  
+    height: 25vh;
+    width: 80%;
+    margin: auto;
+}
+
+.admissionContainer1 .headoneText h1{
+    font-size: 40px;
+}
+
+.admissionContainer1 .headoneText p{
+    font-size: 20px;
+}
+
+.providers{
+ 
+    height: 100vh;
+}
+
+.providers .images{
+   
+    height: 90vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.providers .images .imgprovie{
+   
+    height: 40vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.providers .images .imgprovie h1{
+    text-align: center;
+}

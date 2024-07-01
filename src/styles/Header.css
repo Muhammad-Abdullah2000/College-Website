@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+
+.container9 {
+    background-color: #28a745;
+    height: 100vh;
+    display: flex;
+    margin-top: 70px;
+}
+
+
+
+#rethink {
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 200px;
+    top: 200px;
+
+
+}
+
+h1 #one {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif
+}
+
+h1 #two {
+    color: #212529;
+    font-family: 'Open Sans', sans-serif
+}
+
+h1 #three {
+    color: #212529;
+    font-family: 'Open Sans', sans-serif
+}
+
+
+
+
+.slider {
+    height: 100vh;
+}
+
+
+
+#carouselExampleFade {
+    height: 100vh;
+    margin-left: 700px;
+    position: relative;
+    right: 300px;
+
+}
+
+#carouselExampleFade img {
+    height: 100vh;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .container9 {
+       
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .container9 #rethink {
+        text-align: center;
+
+
+
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 200px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    #carouselExampleFade{
+        display: none;
+    }
+
+}

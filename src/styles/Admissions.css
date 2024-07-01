@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+#admissions {
+    height: 230vh;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 70px;
+}
+
+.topdescription {
+
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topdescription #legacy {
+    width: 1102px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #2d2e6d;
+}
+
+.programs {
+
+    background-color: #2d2e6d;
+    height: 100vh;
+
+}
+
+.programs .intermidiate {
+    padding-top: 30px;
+    height: 15vh;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.programs .intermidiate h1 {
+
+    font-size: 40px;
+    color: #fff;
+}
+
+.program {
+
+    width: 60%;
+    margin: 10px auto;
+    color: #d02d2a;
+}
+
+.programDescription {
+
+    width: 60%;
+    margin: 10px auto;
+    color: #fff;
+
+}
+
+.programDescription #markhor {
+    font-size: 20px;
+    width: 100%;
+}
+
+.cards1 {
+
+    width: 80%;
+    margin: 20px auto;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards1 .card {
+    background-color: #fff;
+    width: 20%;
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.cards1 .card .heading1 {
+
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.cards1 .card .heading1 #course,
+#pre {
+    padding-left: 10px;
+    width: 220px;
+}
+
+.cards1 .card .heading1 #course {
+    color: #2d2e6d;
+}
+
+.cards1 .card .heading1 #pre {
+    color: #d02d2a;
+}
+
+
+.cards1 .card .heading2 {
+
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #2d2e6d;
+
+}
+
+.cards1 .card .heading2 #pre2 {
+    padding-left: 10px;
+}
+
+.appltnow {
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.appltnow button {
+    cursor: pointer;
+    background-color: #d02d2a;
+
+}
+
+.appltnow button li {
+    list-style: none;
+
+}
+
+#applyNow {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    #admissions {
+        height: 430vh;
+    }
+
+    .markhorSlider {
+        margin-top: 70px;
+
+
+    }
+
+
+
+    .markhorSlider img {
+        height: 100vh;
+    }
+
+    .topdescription {
+
+        height: 60vh;
+        margin-top: 0px !important;
+    }
+
+    .programs {
+
+        height: 270vh;
+
+    }
+
+    .programs .intermidiate {
+
+        width: 100%;
+        height: 25vh;
+        text-align: center;
+        font-size: 10vw;
+    }
+
+    .programs .intermidiate h1 {
+        font-size: 10vw;
+    }
+
+    .programs .program {
+       
+        width: 100%;
+        text-align: center;
+    }
+
+    .programs .programDescription {
+       
+        width: 100%;
+        text-align: center
+    }
+
+    .cards1 {
+       
+        width: 100%;
+        height: 200vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .cards1 .card {
+        width: 90%;
+    }
+
+    .appltnow {
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .appltnow button {
+        margin: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {}

@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+#Contact {
+    background-color: #2d2b6f;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 70px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    font-family: 'Open Sans', sans-serif;
+    height: 70vh;
+}
+
+.contact {
+    font-family: 'Open Sans', sans-serif;
+    height: 20vh;
+    display: flex;
+    align-items: last baseline;
+}
+
+.contact h1 {
+    color: #df402d;
+    padding-left: 50px;
+    font-size: 65px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.details {
+    background-color: #26245e;
+    width: 25%;
+    height: 70vh;
+    margin-left: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    width: 100%;
+    padding: 1.5rem 1.5rem;
+}
+
+.top2 {
+    color: #fff;
+    width: 100%;
+    padding: 1.5rem 1.5rem;
+    /* margin-top: 5px; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top3 {
+
+    color: #fff;
+    width: 100%;
+    padding: 1.5rem 1.5rem;
+    /* margin-top: 5px; */
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+
+.dicussion {
+
+    font-family: 'Open Sans', sans-serif;
+    height: 70vh;
+    width: 30%;
+}
+
+.dicussion h1 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#ContactForm {
+
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#name {
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contactForm {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.formContainer {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 15vh;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: #fff; */
+    /* gap: 20px;  */
+}
+
+.formContainer #subject {
+    width: 200px;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.formContainer #phone {
+    width: 200px;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.SubjectContainer {
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+}
+
+.PhoneContainer {
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+
+}
+
+#message {
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn1 {
+    margin-left: 0px;
+    width: 180px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.location {
+
+    font-family: 'Open Sans', sans-serif;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    background-color: #df402d;
+    margin-top: 200px;
+}
+
+.location .loc {
+    font-family: 'Open Sans', sans-serif;
+    width: 85%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.location .loc input {
+    width: 85%;
+    height: 5vh;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.location .loc p {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.locationButton {
+
+    font-family: 'Open Sans', sans-serif;
+    height: 10vh;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.locationButton #locButton {
+    background-color: chocolate;
+    height: 5vh;
+    margin-top: 0px;
+    width: 150px;
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    #Contact {
+      
+        height: 250vh;
+        /* margin-top: 200px; */
+    }
+
+    .contact {
+        
+        height: 30vh;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact h1 {
+        font-size: 10vw;
+        margin: auto;
+        text-align: center;
+        margin-right: 70px;
+    }
+
+    .cards{
+      
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 200vh;
+    }
+
+    .details{
+   
+        width: 100%;
+        margin: auto;
+    }
+
+    .dicussion{
+       
+        width: 100%;
+    }
+
+    .formContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 30vh;
+    }
+
+    .formContainer .SubjectContainer {
+        /* background-color: #fff; */
+        width: 100%;
+    }
+
+    .formContainer .PhoneContainer{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .formContainer input{
+        width: 10%;
+    }
+
+    .location{
+   
+        margin-top: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 20vh;
+    }
+
+    .loc{
+ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .locationButton{
+      
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .locationButton #locButton{
+        margin: auto;
+    }
+
+
+}

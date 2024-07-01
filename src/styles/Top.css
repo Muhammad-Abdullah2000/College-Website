@@ -1,0 +1,170 @@
+.container8{
+    background-color: #fd7e14;
+    height: 80vh;
+    display: flex;
+}
+
+.left3{
+    width: 50%;
+    height: 80vh;
+}
+
+.left3 img{
+    width: 100%;
+    height: 80vh;
+}
+
+.right3{
+    
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+ 
+    
+}
+
+.right3 .topper{
+    /* background-color: #e13b28; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right3 .topper h1{
+    margin-left: 40px;
+    /* position: relative;
+    top: -200px; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.right3 .topper h2{
+    margin-left: 40px;
+    position: relative;
+    top: -200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right3 .topper h3{
+    margin-left: 40px;
+    position: relative;
+    top: -100px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topper h1{
+    color: #fff;
+}
+
+.topper h3{
+    color: #fff;
+}
+
+#mission1{
+    color: #e13b28;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pgc2{
+    
+    width: 600px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+button{
+    color: #ffffff;
+    width: 130px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: #2d2b6f;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .container8{
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 179vh;
+       
+        
+    }
+
+    .left3{
+        background-color: #6f42c1 !important;
+        width: 100% !important;
+        margin: auto;
+        height: 500px !important;
+        margin-top: 70px;
+    }
+
+    .left3 img{
+        width: 100%;
+        height: 500px !important;
+    }
+
+    .right3{
+       
+        width: 100% !important;
+        position: relative;
+        top: -70px;
+       
+    }
+
+    .right3 .topper{
+       
+        width: 90% !important;
+        margin: auto !important;
+       
+    }
+
+    .right3 .topper #pgc2{
+        font-size: 10vw;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .left1{
+      
+        margin-top: 0px !important;
+        
+        width: 100% !important;
+        margin: auto;
+        height: 300px !important;
+    }
+
+    .left1 img{
+    
+        width: 100%;
+        height: 300px !important;
+    }
+
+    .right1 .topper #pgc{
+        
+        font-size: 4vw;
+        width: 70%;
+    }
+
+
+}
